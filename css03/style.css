@@ -1,11 +1,31 @@
 .first {
     background-color: black;
     color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-150%, -50%);
+    transform: translate(-150%, -50%);   
 }
 .second {
     background-color: yellow;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-30%, -50%);
+    transform: translate(-30%, -50%);
 }
 .font-size {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
+}
+.yellow {
+    transform: translate(32.5%, 10%);
+    -ms-transform: translate(32.5%, 10%);
+}
+.bottom-ad {
+    transform: translate(25%, 70%);
+    -ms-transform: translate(25%, 70%);
 }
